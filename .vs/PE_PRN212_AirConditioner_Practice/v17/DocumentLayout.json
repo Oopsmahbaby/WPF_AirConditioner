@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90E580CE-DD28-4151-BA8F-598C7C1178B2}|PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice.csproj|c:\\users\\admin\\documents\\visual studio\\.net\\prn212\\pe_prn212_airconditioner_practice\\pe_prn212_airconditioner_practice\\airconditionermanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90E580CE-DD28-4151-BA8F-598C7C1178B2}|PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice.csproj|solutionrelative:pe_prn212_airconditioner_practice\\airconditionermanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9599D1F9-6F65-4D39-B1BD-339B6AA9D87F}|Services\\Services.csproj|c:\\users\\admin\\documents\\visual studio\\.net\\prn212\\pe_prn212_airconditioner_practice\\services\\airconditionerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9599D1F9-6F65-4D39-B1BD-339B6AA9D87F}|Services\\Services.csproj|solutionrelative:services\\airconditionerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90E580CE-DD28-4151-BA8F-598C7C1178B2}|PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice.csproj|c:\\users\\admin\\documents\\visual studio\\.net\\prn212\\pe_prn212_airconditioner_practice\\pe_prn212_airconditioner_practice\\inputform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90E580CE-DD28-4151-BA8F-598C7C1178B2}|PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice.csproj|solutionrelative:pe_prn212_airconditioner_practice\\inputform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E593BC-A977-4119-818B-827449B96A6B}|Repositories\\Repositories.csproj|c:\\users\\admin\\documents\\visual studio\\.net\\prn212\\pe_prn212_airconditioner_practice\\repositories\\airconditionerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E593BC-A977-4119-818B-827449B96A6B}|Repositories\\Repositories.csproj|solutionrelative:repositories\\airconditionerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E593BC-A977-4119-818B-827449B96A6B}|Repositories\\Repositories.csproj|c:\\users\\admin\\documents\\visual studio\\.net\\prn212\\pe_prn212_airconditioner_practice\\repositories\\entities\\airconditioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E593BC-A977-4119-818B-827449B96A6B}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\airconditioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AirConditionerManager.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice\\AirConditionerManager.xaml.cs",
+              "RelativeDocumentMoniker": "PE_PRN212_AirConditioner_Practice\\AirConditionerManager.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice\\AirConditionerManager.xaml.cs",
+              "RelativeToolTip": "PE_PRN212_AirConditioner_Practice\\AirConditionerManager.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAiwDkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:36:32.298Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AirConditioner.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Repositories\\Entities\\AirConditioner.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\AirConditioner.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Repositories\\Entities\\AirConditioner.cs",
+              "RelativeToolTip": "Repositories\\Entities\\AirConditioner.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T18:26:35.231Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice\\InputForm.xaml.cs",
+              "RelativeDocumentMoniker": "PE_PRN212_AirConditioner_Practice\\InputForm.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\PE_PRN212_AirConditioner_Practice\\InputForm.xaml.cs",
+              "RelativeToolTip": "PE_PRN212_AirConditioner_Practice\\InputForm.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwFcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T18:31:57.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AirConditionerService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Services\\AirConditionerService.cs",
+              "RelativeDocumentMoniker": "Services\\AirConditionerService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Services\\AirConditionerService.cs",
+              "RelativeToolTip": "Services\\AirConditionerService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwCQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:49:01.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirConditionerRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Repositories\\AirConditionerRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\AirConditionerRepositories.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio\\.NET\\PRN212\\PE_PRN212_AirConditioner_Practice\\Repositories\\AirConditionerRepositories.cs",
+              "RelativeToolTip": "Repositories\\AirConditionerRepositories.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAxwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:38:56.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

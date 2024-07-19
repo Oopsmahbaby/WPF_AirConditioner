@@ -1,0 +1,34 @@
+﻿<Window x:Class="PE_PRN212_AirConditioner_Practice.AirConditionerManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PE_PRN212_AirConditioner_Practice"
+        mc:Ignorable="d"
+        Title="AirConditionerManager" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0" Height="30" VerticalAlignment="Top">
+            <Button Content="Add" Width="75" Margin="5" Click="AddButton_Click"/>
+            <Button Content="Edit" Width="75" Margin="5" Click="EditButton_Click"/>
+            <Button Content="Delete" Width="75" Margin="5" Click="DeleteButton_Click"/>
+        </StackPanel>
+        <DataGrid x:Name="ListACDataGrid" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="AirConditionerId" Binding="{Binding AirConditionerId}"  Width="*"/>
+                <DataGridTextColumn Header="AirConditionerName" Binding="{Binding AirConditionerName}" Width="*"/>
+                <DataGridTextColumn Header="Warranty" Binding="{Binding Warranty}" Width="*"/>
+                <DataGridTextColumn Header="SoundPressureLevel" Binding="{Binding SoundPressureLevel}" Width="*"/>
+                <DataGridTextColumn Header="FeatureFunction" Binding="{Binding FeatureFunction}" Width="*"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
+                <DataGridTextColumn Header="DollarPrice" Binding="{Binding DollarPrice}" Width="*"/>
+                <DataGridTextColumn Header="SupplierId" Binding="{Binding SupplierId}" Width="*"/>
+                <DataGridTextColumn Header="SupplierName" Binding="{Binding Supplier.SupplierName}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

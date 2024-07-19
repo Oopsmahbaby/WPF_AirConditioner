@@ -1,0 +1,64 @@
+﻿<Window x:Class="PE_PRN212_AirConditioner_Practice.InputForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PE_PRN212_AirConditioner_Practice"
+        mc:Ignorable="d"
+        Title="InputForm" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Book ID -->
+        <Label Content="AirConditioner Id:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="AirConditionerIdTextBox" Grid.Row="0" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Book Name -->
+        <Label Content="AirConditioner Name:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="AirConditionerNameTextBox" Grid.Row="1" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Description -->
+        <Label Content="Warranty:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="WarrantyTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Publication Date -->
+        <Label Content="SoundPressure Level:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="SoundPressureLevelTextBox" Grid.Row="3" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Quantity -->
+        <Label Content="Feature Function:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="FeatureFunctionTextBox" Grid.Row="4" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Price -->
+        <Label Content="Quantity:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="QuantityTextBox" Grid.Row="5" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Author -->
+        <Label Content="Dollar Price:" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Name="DollarPriceTextBox" Grid.Row="6" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Book Category -->
+        <Label Content="Supplier Id:" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+        <ComboBox Name="SupplierIdComboBox" DisplayMemberPath="SupplierName" SelectedValuePath="SupplierId" Grid.Row="7" Grid.Column="1" Margin="5" Width="200"/>
+
+        <!-- Buttons -->
+        <StackPanel Orientation="Horizontal" Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5">
+            <Button Content="Add" Width="80" Height="30" Margin="5" Click="AddButton_Click"/>
+            <Button Content="Cancel" Width="80" Height="30" Margin="5" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
